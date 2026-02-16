@@ -67,7 +67,7 @@
                 &kp TAB     &kp F1          &kp F2        &kp F3       &kp F4       &kp F5           &kp F6   &kp F7   &kp F8 &kp F9    &kp F10 &none
                 &bt BT_CLR  &none           &kp LG(LS(S)) &none        &kp LS(RALT) &none            &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans  &trans
                 &kp LSHFT   &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3     &trans   &trans   &trans &trans    &trans  &trans
-                                                          &mkp LCLK    &mkp RCLK    &mkp MCLK        &trans   &trans   &trans
+                                                                        &trans  &trans   &trans      &trans   &trans    &trans
             >;
         };
 
@@ -77,7 +77,7 @@
                 &kp TAB   &trans   &trans &trans   &trans   &trans      &kp JP_CARET &kp JP_DLLR  &kp JP_LPAR &kp JP_RPAR &kp JP_PRCNT &none
                 &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp JP_SQT   &kp JP_DQT   &kp JP_LBKT &kp JP_RBKT &kp JP_HASH  &kp JP_AMPS
                 &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp JP_AT    &kp JP_GRAVE &kp JP_LBRC &kp JP_RBRC &kp JP_EXCL  &kp JP_PIPE
-                                           &trans  &trans   &trans      &trans   &trans    &trans
+                               &mkp LCLK    &mkp RCLK    &mkp MCLK      &trans   &trans   &trans
             >;
         };
 
@@ -97,7 +97,7 @@
                 &kp TAB   &none  &kp N7 &kp N8 &kp N9 &none   &none &none  &none &none &none &none
                 &kp LCTRL &none  &kp N4 &kp N5 &kp N6 &none   &none &none  &none &none &none &none
                 &kp LSHFT &kp N0 &kp N1 &kp N2 &kp N3 &none   &none &none  &none &none &none &none
-                       &kp JP_ZKHK &mt LSHIFT SPACE &kp TAB   &kp BSPC &kp RET &kp RALT
+                                 &trans  &trans   &trans      &trans   &trans    &trans
             >;
         };
 
@@ -106,10 +106,6 @@
         };
 
         extra_2 {
-                status = "reserved";
-        };
-
-        extra_3 {
                 status = "reserved";
         };
     };
